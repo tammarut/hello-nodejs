@@ -1,0 +1,22 @@
+{
+  "name": "example-node-server",
+  "version": "1.0.0",
+  "description": "Example Node Server w/ Babel",
+  "main": "lib/index.js",
+  "scripts": {
+    "start-dev": " babel-node index.js",
+    "dev": "npm run start-dev"
+  },
+  "author": "James Kyle <me@thejameskyle.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.17.5"
+  },
+  "dependencies": {
+    "@babel/node": "^7.10.5"
+  }
+}
