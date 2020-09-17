@@ -4,7 +4,7 @@
   "description": "Example Node Server w/ Babel",
   "main": "lib/index.js",
   "scripts": {
-    "start-dev": " babel-node index.js",
+    "start-dev": " babel-node lsp.js",
     "dev": "npm run start-dev"
   },
   "author": "James Kyle <me@thejameskyle.com>",
