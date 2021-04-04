@@ -1,15 +1,15 @@
 {
-        "name": "jest-unittest",
-        "version": "1.0.0",
-        "description": "",
-        "main": "index.js",
-        "scripts": {
-                "test": "jest --watchAll --coverage"
-        },
-        "keywords": [],
-        "author": "",
-        "license": "ISC",
-        "devDependencies": {
-                "jest": "^26.3.0"
-        }
+  "name": "jest-unittest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.3.0"
+  }
 }
