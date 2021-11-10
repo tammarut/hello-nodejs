@@ -1,23 +1,23 @@
 // Input
-let arr1=[1, [2], [3, 4, [5]]];
+let arr1 = [1, [2], [3, 4, [5]]];
 
 // Output
 // [1, 2]
 
 function flatten(arr) {
-        let temp = [];
-        function recursiveFlatten(arr) {
-                for (let i = 0; i < arr.length; i++) {
-                        if (Array.isArray(arr[i])) {
-                                recursiveFlatten(arr[i]);
-                        } else {
-                                temp.push(arr[i]);
-                        }
-                }
-        }
-        recursiveFlatten(arr);
+  let temp = [];
+  function recursiveFlatten(arr) {
+    for (let i = 0; i < arr.length; i++) {
+      if (Array.isArray(arr[i])) {
+        recursiveFlatten(arr[i]);
+      } else {
+        temp.push(arr[i]);
+      }
+    }
+  }
+  recursiveFlatten(arr);
 
-        return temp;
+  return temp;
 }
 console.log("Before:", arr1);
 console.log("After: ", flatten(arr1));
